@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Web Sederhana</title>
+    <!-- Tambahkan link CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Grid Basic -->
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Grid Basic</h1>
+                <p>Ini adalah contoh tata letak menggunakan grid Bootstrap.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/200" alt="Gambar">
+            </div>
+        </div>
+
+        <!-- Typography -->
+        <h2>Typography</h2>
+        <p class="lead">Ini adalah contoh teks dengan gaya "lead".</p>
+
+        <!-- Colors, Tables, Images -->
+        <h2>Colors, Tables, Images</h2>
+        <div class="container mt-5">
+            <p class="text-primary">Primary Text Color</p>
+            <p class="text-success">Success Text Color</p>
+            <p class="text-danger">Danger Text Color</p>
+            <p class="text-warning">Warning Text Color</p>
+            <p class="text-info">Info Text Color</p>
+            <p class="text-secondary">Secondary Text Color</p>
+            <p class="text-dark">Dark Text Color</p>
+            <p class="text-light bg-dark">Light Text Color on Dark Background</p>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Muhammad Jepri</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Muhammad Samsul</td>
+                    <td>21</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="mypictures.jpg" alt="Gambar">
+
+        <!-- Jumbotron, Alerts -->
+        <div class="jumbotron">
+            <h2>Jumbotron</h2>
+            <p>Ini adalah contoh jumbotron.</p>
+        </div>
+
+        <!-- Success Alert -->
+        <div class="alert alert-success">
+            <strong>Success!</strong> This is a success alert.
+        </div>
+
+        <!-- Warning Alert -->
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> This is a warning alert.
+        </div>
+
+        <!-- Danger Alert -->
+        <div class="alert alert-danger">
+            <strong>Error!</strong> This is an error alert.
+        </div>
+
+        <!-- Info Alert -->
+        <div class="alert alert-info">
+            <strong>Info!</strong> This is an info alert.
+        </div>
+
+        <!-- Buttons, Badges -->
+        <h2>Buttons, Badges</h2>
+        <button type="button" class="btn btn-secondary">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <span class="badge badge-info">Badge Info</span>
+
+        <!-- Progress Bars -->
+        <h2>Progress Bars</h2>
+           <!-- Blue -->
+            <div class="progress">
+                <div class="progress-bar" style="width:10%"></div>
+            </div>
+            
+            <!-- Green -->
+            <div class="progress">
+                <div class="progress-bar bg-success" style="width:20%"></div>
+            </div>
+            
+            <!-- Turquoise -->
+            <div class="progress">
+                <div class="progress-bar bg-info" style="width:30%"></div>
+            </div>
+            
+            <!-- Orange -->
+            <div class="progress">
+                <div class="progress-bar bg-warning" style="width:40%"></div>
+            </div>
+            
+            <!-- Red -->
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="width:50%"></div>
+            </div>
+            
+            <!-- White -->
+            <div class="progress border">
+                <div class="progress-bar bg-white" style="width:60%"></div>
+            </div>
+            
+            <!-- Grey -->
+            <div class="progress">
+                <div class="progress-bar bg-secondary" style="width:70%"></div>
+            </div>
+            
+            <!-- Light Grey -->
+            <div class="progress border">
+                <div class="progress-bar bg-light" style="width:80%"></div>
+            </div>
+            
+            <!-- Dark Grey -->
+            <div class="progress">
+                <div class="progress-bar bg-dark" style="width:90%"></div>
+            </div>
+        
+        <!-- Spinners, Pagination -->
+        <h2>Spinners, Pagination</h2>
+        <div class="spinner-border text-muted"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-warning"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-dark"></div>
+        <div class="spinner-border text-light"></div>
+            <span class="sr-only">Loading...</span>
+        
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
+        </ul>
+    </div>
+
+    <!-- Tambahkan script JS Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
